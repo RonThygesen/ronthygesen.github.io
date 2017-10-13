@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>My Portfolio</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Ron Thygesen</a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#About">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<style>
+    html, body {
+        background: linear-gradient(-90deg, lightblue, lightgray);
+        height:100%;
+    }
+    .section{
+        background-color: rgb(35, 156, 212);
+        font-family: 'Indie Flower', cursive;
+        color: aliceblue;
+    }
+    .projectRow{
+        margin-top:0;
+    }
+    .containerSpacing{
+        padding-bottom: 100px;
+    }
+    .introParagraph{
+        border-left: 2px greenyellow solid;
+        font-size: 150%;
+        color:crimson;
+    }
+    .paragraphFontStyle{
+        font-size: 120%;
+        color:darkslategray;
+    }
+    .projectBox{
+        background: silver;
+        width: 80%;
+        height: 30%;
+        margin: auto;
+    }
+    .plusIcon{
+        font-size: 130%;
+        color:crimson;
+    }
+    .emailButton{
+        background: rgb(224, 224, 224);
+        color: darkslategray;
+        border: 1px crimson solid;
+        border-radius: 25%;
+        text-align: center;
+    }
+    .footer{
+        background: rgb(24, 24, 24);
+        font-size: 120%;
+        color:antiquewhite;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        position: relative;
+        bottom: 0;
+    }
+</style>
+<div class="section">
+    <h2>About</h2>
+</div>
+<div class="container containerSpacing">
+    <p class="introParagraph">I aim to create functional, beautiful designs, with ease of use.</p>
+    <p class="paragraphFontStyle">I have always had a passion for beautiful, and thoughtful designs. My passion has given me many opportunities to create fun, and unique projects. From small games, that people may never hear about, to exciting and beautiful applications. I always have considered myself first and foremost a designer, with a developer background. I have attended college at <abbr title="Western Nevada College">WNC</abbr> and <abbr title="Truckee Meadows Community College">TMCC</abbr> where I studied Graphics Design, and Computer Science.</p>
+</div>
+<div style="display:inline-block; width: 100%;" class="section">
+    <h2>Projects</h2>
+</div>
+<div class="container-fluid">
+    <div style="height:40%" class="row">
+        <div style="background:lightskyblue;" class="col">
+        </div>
+        <div style="background:lightsalmon;" class="col">
+        </div>
+        <div style="background:orchid;" class="col">
+        </div>
+    </div>
+</div>
+<div class="section">
+    <h2>Skills</h2>
+</div>
+<div class="container containerSpacing">
+    <div class="row">
+        <div class="col paragraphFontStyle">
+            <p><b class="plusIcon">+</b>HTML</p>
+            <p><b class="plusIcon">+</b>CSS</p>
+            <p><b class="plusIcon">+</b>Bootstrap</p>
+            <p><b class="plusIcon">+</b>Photoshop</p>
+        </div>
+        <div class="col paragraphFontStyle">
+            <p><b class="plusIcon">+</b>Javascript</p>
+            <p><b class="plusIcon">+</b>JQuery</p>
+            <p><b class="plusIcon">+</b>Python</p>
+            <p><b class="plusIcon">+</b>Django</p>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <h2>Contact</h2>
+</div>
+<div class="container containerSpacing">
+    <p class="introParagraph">Interested in working on a project together?</p>
+    <p style="text-align: center;"><button class="emailButton" onclick="window.location.href='mailto:menhit@icloud.com?Subject=Web%20development%20work'">Email Me!</button></p>
+</div>
+<footer class="footer">
+    <p>Copyright Ron Thygesen 2017</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
